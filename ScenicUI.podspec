@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScenicUI'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'ScenicUI is a Swift-based UI Framework.'
   s.swift_versions   = '5.0'
 
