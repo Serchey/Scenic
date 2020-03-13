@@ -24,11 +24,11 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Serhiy Medvedyev/Scenic'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Serhiy Medvedyev' => 'serhiy.medvedyev@nordstrom.com' }
+  s.author           = { 'Serhiy Medvedyev' => 'leadgit@gmail.com' }
   s.source           = { :git => 'https://github.com/Serhiy Medvedyev/Scenic.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'Scenic/Classes/**/*'
   
@@ -38,5 +38,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'RxSwift', '~> 5.0'
+   s.dependency 'RxCocoa', '~> 5.0'
 end
