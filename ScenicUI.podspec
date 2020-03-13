@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Scenic'
+  s.name             = 'ScenicUI'
   s.version          = '0.1.0'
-  s.summary          = 'Scenic is a Swift-based UI Framework.'
+  s.summary          = 'ScenicUI is a Swift-based UI Framework.'
   s.swift_versions   = '5.0'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'Scenic/Classes/**/*'
+  s.source_files = 'ScenicUI/Classes/**/*'
   
   # s.resource_bundles = {
   #   'Scenic' => ['Scenic/Assets/*.png']
