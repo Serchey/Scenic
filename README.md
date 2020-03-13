@@ -22,7 +22,7 @@ pod 'Scenic'
 
 ## Author
 
-Serhiy Medvedyev, serhiy.medvedyev@nordstrom.com
+Serhiy Medvedyev, leadgit@gmail.com
 
 ## License
 
