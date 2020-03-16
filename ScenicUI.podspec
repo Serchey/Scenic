@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScenicUI'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'ScenicUI is a Swift-based UI Framework.'
   s.swift_versions   = '5.0'
 
@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Serchey/Scenic.git'
+  s.homepage         = 'https://github.com/Serchey/ScenicUI.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Serhiy Medvedyev' => 'leadgit@gmail.com' }
-  s.source           = { :git => 'https://github.com/Serchey/Scenic.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Serchey/ScenicUI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
