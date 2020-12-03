@@ -20,7 +20,7 @@ public extension ScenePresentableViewModel {
 }
 
 public final class SceneMVVM<ViewModel: ScenePresentableViewModel, ViewController: UIViewController & SceneBindableViewController>: Scene where ViewController.ViewModel == ViewModel {
-    public var embeddedScenes:[Scene] {
+    public var embeddedScenes: [Scene] {
         let allScenes: [Scene?] = topScenes + stackScenes + [bottomScene] + [leftScene] + [rightScene]
         return allScenes.compactMap { $0 }
     }
